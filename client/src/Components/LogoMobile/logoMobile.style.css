@@ -1,0 +1,78 @@
+.Menu{
+    width: 2rem;
+    height: 5px;
+    background-color: grey;
+    margin: 3px 0;
+  }
+
+
+.moLogoPar {
+    display: flex;
+    justify-content: center;
+    /* border-bottom: 2px solid #c4c4c4; */
+    /* box-shadow: 0px 3px 6px #0000001A; */
+}
+
+.TheLogoCon{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    
+}
+
+
+.mLogoSub {
+    width: 90%;
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    /* border-bottom: 2px solid grey; */
+    justify-content: space-between;
+}
+
+.MenuBar{
+    height: 1rem;
+}
+
+
+.mobileHr{
+    border-bottom: 2px solid #c4c4c4;
+     box-shadow: 0px 3px 6px #0000001A;
+}
+
+.selector{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+}
+
+
+
+.coms {
+    border-bottom: 0.5px solid #abaaaa82;
+    width: 70%;
+    text-align: center;
+    /* background-color: azure; */
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.mbuserName{
+    padding: 3px 0px;
+    /* padding-top: 4px; */
+    /* color: #007BFF; */
+    /* color: #00C853; */
+    /* color: #FF6D00; */
+    color: #673AB7;
+    /* color: #009688; */
+    /* color: #FF1744; */
+    /* color: #757575; */
+    /* color: #FFD600; */
+}

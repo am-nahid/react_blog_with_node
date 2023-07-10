@@ -1,0 +1,206 @@
+
+.TheMainFooter {
+    display: flex;
+    /* background-color: #333333; */
+    background-color: darkslategrey;
+    color: #ffffff;
+    justify-content: center;
+    /* height: 10rem; */
+    min-height: 10rem;
+}
+
+.FRefernce {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.theFWidth {
+    width: 90%;
+}
+
+.FGridCont{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* justify-content: space-between; */
+    height: 100%;
+}
+
+.FSecCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.center{
+    padding-top: 1rem;
+}
+
+.Fcontact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+.theFProp {
+    display: flex;
+}
+
+
+.FmiddleCon {
+    /* height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.FmiddleSubCon {
+    /* height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.lastFText {
+    font-size: 15px;
+    font-style: normal;
+}
+
+pre{
+    font-family: inherit;
+}
+
+.Flinks{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media  (min-width:600px) and (max-width:1000px){
+
+
+    .TheMainFooter{
+        /* font-size: 12px; */
+        font-size: 14px;
+    }
+    .Fcontact {
+       padding-top: 2.5rem;
+    }
+
+    .FGridCont {    
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+    }
+
+    .theFWidth {
+        width: 95%;
+    }
+
+    
+    /* .FmiddleSubCon{
+        height: auto;
+} */
+
+
+
+
+
+
+}
+
+
+@media (max-width:600px){
+
+    .FmiddleSubCon{
+        height: auto;
+        line-height: 14px;
+    } 
+    .FGridCont {
+        display: block;
+      }
+
+/* .FGridCont {    
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+} */
+
+.FSecCon {
+    position: relative;
+    left: 1rem;
+    width: 80%;
+    gap: 3px;
+    font-size: 15px;
+  }
+  .fLogo{
+    margin-top: -0.5rem;
+  }
+  
+  .FmiddleCon {
+    gap: 6px;
+  }
+  
+  
+  .FmiddleSubCon {
+    gap: 10px;
+    line-height: 20px;
+  }
+  
+  
+  .Fcontact {
+    position: relative;
+      left: 1rem;
+      width: 80%;
+      font-size: 14px;
+      gap: 1px;
+      padding-top: 1rem;
+  }
+  
+  .lastFText {
+    font-size: 15px;
+  }
+  
+  .FRefernce {
+    position: relative;
+      left: 1rem;
+      width: 80%;
+      font-size: 14px;
+      gap: 1px;
+  }
+  
+  /* .FGridCont {
+    display: block;
+  }
+.TheMainFooter{
+    font-size: 11px;
+}
+
+.lastFText{
+    font-size: 10px;
+}
+
+.Fcontact{
+    padding-top: 2.2rem;
+    gap: 2px;
+}
+ */
+
+.theFWidth {
+    width: 95%;
+}
+
+
+
+}

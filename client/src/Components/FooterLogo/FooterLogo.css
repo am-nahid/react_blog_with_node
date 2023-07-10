@@ -1,0 +1,25 @@
+.theFooterLogoPar{
+    text-align: center;
+    padding-top: 2rem;
+  }
+  
+  .verticleT{
+      writing-mode: vertical-lr;
+      text-orientation: mixed;
+      transform: rotate(180deg);
+      font-size: initial;
+  }
+  @media  (min-width:600px) and (max-width:1000px){
+    .verticleT{
+        font-size: 14px;
+    }
+  }
+
+
+@media (max-width:600px){
+
+  .verticleT{
+    font-size: 11px;
+}
+
+}
