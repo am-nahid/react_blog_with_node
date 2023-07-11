@@ -8,22 +8,7 @@ import { AllData } from "./constants/ApiList";
 
 function App() {
   const [data, setData] = useState(null);
-  // const [name,setName]=useState(null)
-  // useEffect(() => {
-  //   const API = 'https://blog-server-oxr9.onrender.com/user/auth';
-  //   const response = axios.get(API)
-  //        response.then((res) => {
-  //         if( localStorage.getItem("token")){
-             
-  //           setName(true)
-  //           } 
-  //           else{
-  //             setName(false)
-  //           }
-  //        })
-  //        .catch(err=>console.log(err))
-  // },[ localStorage.getItem("token")]
-  // )
+
 
   useEffect(() => {
     const API = AllData;
