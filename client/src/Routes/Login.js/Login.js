@@ -34,33 +34,22 @@ function Login() {
 
   const handleButton = (e) => {
     e.preventDefault();
- 
-    // const API = "https://blog-server-oxr9.onrender.com/user/login";
-    // const API = "http://localhost:4040/user/login"
-    // console.log(email,password);
     const API = LoginApi
     // const API = localhostLogin
 
     if (email && password) {
-      // console.log("if condition");
+
       axios
         .post(API,{email,password})
         .then((res) => {
-          //     // alert("User registered");
-          console.log(res.data);
           if(res.data.email){
-
-          // console.log("if condition",res.data);
             localStorage.setItem("token", res.data.token);
             localStorage.setItem("name",res.data.name)
             localStorage.setItem("id",res.data._id)
             navigate("/",{replace:true});
             setStore(res.data);
-            // setEmail()
-            // setPassword("")
-            // console.log(res.data);
+
           }else{
-            // console.log("else statement", email,password);
             setError("Invalid password/email");
             setEmail("")
             setPassword("")
@@ -72,9 +61,7 @@ function Login() {
     }
   };
 
-  // useEffect(()=>{
-  // // console.log(store);
-  // },[store])
+
 
   const handleBackBtn = () => {
     navigate("/");

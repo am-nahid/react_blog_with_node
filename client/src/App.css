@@ -627,14 +627,11 @@ h4:hover{
       display: block;
     }
 
-.LogoutBtn {
+/* .LogoutBtn {
   position: absolute;
   top: -11px;
   right: 10px; 
-  /* position: absolute;
-  top: 0px;
-  right: 10px; */
-}
+} */
     
     
     /* .moLogoPar {
@@ -738,6 +735,10 @@ min-width: 100%;
   position: relative;
   /* position: relative; */
 }
+/* 
+position: relative;
+left: 4rem;
+top: 4px; */
 
 .LoginButn {
   margin-left: 0rem;
