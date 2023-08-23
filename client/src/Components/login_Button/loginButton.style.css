@@ -169,11 +169,13 @@
     display:none;
 }
 .iconBtnContainer {
-    left: 9rem;
+    left: 10rem;
     top: 5px;
+    width: 20px;
 }
 .userCntnr {
-right: 6.5rem;
+    right: -4.5rem;
+    top: 3rem;
 }
 
 }
